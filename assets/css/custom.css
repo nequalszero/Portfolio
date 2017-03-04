@@ -1,0 +1,56 @@
+.code-icon {
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+.code-icon {
+  position: absolute;
+  text-align: center;
+  display: block;
+  height: 2.5em;
+  width: 2.5em;
+  top: 0;
+  left: 0;
+  line-height: 2.5em;
+}
+
+.code-icon-container {
+  position: absolute;
+  text-align: center;
+  display: block;
+  height: 2.5em;
+  width: 2.5em;
+  top: 0;
+  left: 0;
+  line-height: 2.5em;
+}
+
+.code-icon-subcontainer {
+  position: relative;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotater {
+  from { transform: scale(1) }
+  to { transform: scale(2) }
+}
+
+.code-icon.spin {
+  animation: App-logo-spin infinite 12s linear;
+}
+
+.grow { transition: all 0.3s ease; }
+.grow:hover { transform: scale(1.2); }
+
+a.image > img{
+  border: 1px solid black;
+}
