@@ -54,3 +54,32 @@
 a.image > img{
   border: 1px solid black;
 }
+
+#footer .container .footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0px;
+}
+
+#footer .container .footer-icons li {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 5em;
+  height: 2em;
+}
+
+#footer .container .footer-icons li:last-of-type {
+  padding-right: 0em;
+}
+
+#footer .container .footer-icons li .icon::before{
+  font-size: 2em;
+  vertical-align: top;
+  color: #4acaa8;
+}
+
+.contact-info {
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  color: #989898;
+}

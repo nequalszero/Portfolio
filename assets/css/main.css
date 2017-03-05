@@ -2113,7 +2113,7 @@
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0;
 			}
 
 				ul.icons li:last-child {
@@ -2538,6 +2538,15 @@
 
 				#header > footer .icons li a {
 					color: #b6e9dc;
+					padding: 1.5em 0.5em;
+				}
+
+				#header > footer .icons li:first-child a {
+					padding-left: 1em;
+				}
+
+				#header > footer .icons li:last-child a {
+					padding-right: 1em;
 				}
 
 		#header > nav {
